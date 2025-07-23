@@ -1,0 +1,152 @@
+﻿@model staj_proje.Models.User
+@{
+    ViewBag.Title = "Profilim";
+    Layout = "_Layout";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">
+                        <i class="fas fa-user-edit"></i> Profil Bilgileri
+                    </h4>
+                </div>
+                <div class="card-body">
+                    @if (TempData["Mesaj"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="fas fa-check-circle"></i> @TempData["Mesaj"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    @if (ViewBag.Hata != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <i class="fas fa-exclamation-triangle"></i> @ViewBag.Hata
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <!-- Mevcut Bilgiler -->
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <div class="card bg-light">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Mevcut Kullanıcı Adı</h6>
+                                    <h5 class="card-title text-primary">
+                                        <i class="fas fa-user"></i> @Model.Username
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-light">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Kayıt Tarihi</h6>
+                                    <h5 class="card-title text-success">
+                                        <i class="fas fa-calendar"></i> @Model.CreatedDate.ToString("dd.MM.yyyy")
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Profil Güncelleme Formu -->
+                    <form asp-action="Profile" method="post" id="profileForm">
+                        @Html.AntiForgeryToken()
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="yeniKullaniciAdi" class="form-label fw-bold">
+                                    <i class="fas fa-user"></i> Yeni Kullanıcı Adı
+                                </label>
+                                <input type="text"
+                                       id="yeniKullaniciAdi"
+                                       name="yeniKullaniciAdi"
+                                       class="form-control"
+                                       value="@Model.Username"
+                                       required
+                                       minlength="3"
+                                       maxlength="20"
+                                       placeholder="Yeni kullanıcı adınız">
+                                <div class="form-text">3-20 karakter arası olmalıdır</div>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label for="eskiSifre" class="form-label fw-bold">
+                                    <i class="fas fa-lock"></i> Mevcut Şifre
+                                </label>
+                                <input type="password"
+                                       id="eskiSifre"
+                                       name="eskiSifre"
+                                       class="form-control"
+                                       required
+                                       placeholder="Mevcut şifrenizi girin">
+                                <div class="form-text">Güvenlik için mevcut şifrenizi girin</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="yeniSifre" class="form-label fw-bold">
+                                    <i class="fas fa-key"></i> Yeni Şifre
+                                </label>
+                                <input type="password"
+                                       id="yeniSifre"
+                                       name="yeniSifre"
+                                       class="form-control"
+                                       required
+                                       minlength="4"
+                                       placeholder="Yeni şifrenizi girin">
+                                <div class="form-text">En az 4 karakter olmalıdır</div>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label for="yeniSifreTekrar" class="form-label fw-bold">
+                                    <i class="fas fa-key"></i> Yeni Şifre (Tekrar)
+                                </label>
+                                <input type="password"
+                                       id="yeniSifreTekrar"
+                                       name="yeniSifreTekrar"
+                                       class="form-control"
+                                       required
+                                       minlength="4"
+                                       placeholder="Yeni şifrenizi tekrar girin">
+                                <div class="form-text">Şifrelerin eşleşmesi gerekir</div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Ana Sayfaya Dön
+                            </a>
+                            <button type="submit" class="btn btn-primary px-4">
+                                <i class="fas fa-save"></i> Profili Güncelle
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('profileForm').addEventListener('submit', function(e) {
+            const yeniSifre = document.getElementById('yeniSifre').value;
+            const yeniSifreTekrar = document.getElementById('yeniSifreTekrar').value;
+
+            if (yeniSifre !== yeniSifreTekrar) {
+                e.preventDefault();
+                alert('Yeni şifreler eşleşmiyor!');
+                return false;
+            }
+
+            return confirm('Profil bilgilerinizi güncellemek istediğinizden emin misiniz?');
+        });
+    </script>
+}

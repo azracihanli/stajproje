@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giriş Yap</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .auth-container {
+            background-color: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 350px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            color: #343a40;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 6px;
+            display: block;
+            text-align: left;
+            color: #495057;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+            input[type="text"]:focus,
+            input[type="password"]:focus {
+                border-color: #007bff;
+                outline: none;
+            }
+
+        button {
+            width: 100%;
+            background-color: #007bff;
+            border: none;
+            padding: 12px;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        .error-message {
+            color: #dc3545;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .success-message {
+            color: #28a745;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-top: 15px;
+            color: #6c757d;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <h2>Giriş Yap</h2>
+
+        @if (ViewBag.Hata != null)
+        {
+            <div class="error-message">@ViewBag.Hata</div>
+        }
+
+        @if (TempData["Mesaj"] != null)
+        {
+            <div class="success-message">@TempData["Mesaj"]</div>
+        }
+
+        <form method="post" asp-action="Login">
+            @Html.AntiForgeryToken()
+            <label for="kullaniciAdi">Kullanıcı Adı</label>
+            <input type="text" id="kullaniciAdi" name="kullaniciAdi" required />
+
+            <label for="sifre">Şifre</label>
+            <input type="password" id="sifre" name="sifre" required />
+
+            <button type="submit">Giriş Yap</button>
+        </form>
+
+        <p>Hesabınız yok mu? <a href="@Url.Action("Register", "Account")">Kayıt olun</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Kayıt Ol";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .auth-container {
+            background-color: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 350px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            color: #343a40;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 6px;
+            display: block;
+            text-align: left;
+            color: #495057;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+            input[type="text"]:focus,
+            input[type="password"]:focus {
+                border-color: #28a745;
+                outline: none;
+                box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+            }
+
+        button {
+            width: 100%;
+            background-color: #28a745;
+            border: none;
+            padding: 12px;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #218838;
+            }
+
+        .error-message {
+            color: #dc3545;
+            margin-bottom: 15px;
+            font-weight: 600;
+            padding: 10px;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+        }
+
+        .success-message {
+            color: #155724;
+            margin-bottom: 15px;
+            font-weight: 600;
+            padding: 10px;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 15px;
+            color: #6c757d;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        .form-hint {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: -15px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <h2>@ViewBag.Title</h2>
+
+        @if (ViewBag.Hata != null)
+        {
+            <div class="error-message">@ViewBag.Hata</div>
+        }
+
+        @if (TempData["Mesaj"] != null)
+        {
+            <div class="success-message">@TempData["Mesaj"]</div>
+        }
+
+        <form method="post" asp-action="Register">
+            @Html.AntiForgeryToken()
+
+            <label for="kullaniciAdi">Kullanıcı Adı</label>
+            <input type="text" id="kullaniciAdi" name="kullaniciAdi" required
+                   minlength="3" maxlength="20" placeholder="Kullanıcı adınızı girin" />
+            <div class="form-hint">3-20 karakter arası olmalıdır</div>
+
+            <label for="sifre">Şifre</label>
+            <input type="password" id="sifre" name="sifre" required
+                   minlength="4" placeholder="Şifrenizi girin" />
+            <div class="form-hint">En az 4 karakter olmalıdır</div>
+
+            <button type="submit">Kayıt Ol</button>
+        </form>
+
+        <p>Zaten hesabınız var mı? <a href="@Url.Action("Login", "Account")">Giriş Yap</a></p>
+    </div>
+</body>
+</html>
