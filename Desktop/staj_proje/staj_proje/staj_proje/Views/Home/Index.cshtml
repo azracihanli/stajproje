@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hoş Geldiniz @ViewBag.FullName!</h1>
+    <p class="lead">Staj projesi yönetim paneline hoş geldiniz.</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <i class="fas fa-user fa-3x text-primary mb-3"></i>
+                <h5 class="card-title">Profil</h5>
+                <p class="card-text">Profil bilgilerinizi görüntüleyin ve güncelleyin.</p>
+                <a asp-controller="Home" asp-action="Profile" class="btn btn-primary">
+                    <i class="fas fa-arrow-right"></i> Git
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <i class="fas fa-users fa-3x text-success mb-3"></i>
+                <h5 class="card-title">Tüm Kayıtlar</h5>
+                <p class="card-text">Tüm kullanıcı kayıtlarını görüntüleyin ve yönetin.</p>
+                <a asp-controller="Home" asp-action="AllRecords" class="btn btn-success">
+                    <i class="fas fa-arrow-right"></i> Git
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <i class="fas fa-cog fa-3x text-warning mb-3"></i>
+                <h5 class="card-title">Ayarlar</h5>
+                <p class="card-text">Sistem ayarlarınızı yapılandırın.</p>
+                <button class="btn btn-warning" disabled>
+                    <i class="fas fa-arrow-right"></i> Yakında
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="alert alert-info">
+            <i class="fas fa-info-circle"></i>
+            <strong>Bilgi:</strong> Sol üst köşedeki menü butonundan diğer sayfalara erişebilirsiniz.
+        </div>
+    </div>
+</div>

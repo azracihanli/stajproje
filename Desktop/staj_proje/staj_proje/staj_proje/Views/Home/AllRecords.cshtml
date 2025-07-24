@@ -1,0 +1,206 @@
+﻿@model List<staj_proje.Models.User>
+@{
+    ViewData["Title"] = "Tüm Kayıtlar";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fas fa-users"></i> Tüm Kayıtlar</h2>
+    <div>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addUserModal">
+            <i class="fas fa-plus"></i> Kullanıcı Ekle
+        </button>
+        <a asp-action="ExportToExcel" class="btn btn-primary">
+            <i class="fas fa-file-csv"></i> Excel'e Aktar
+        </a>
+        <a asp-action="ExportToPdf" class="btn btn-danger">
+            <i class="fas fa-file-pdf"></i> PDF'e Aktar
+        </a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <table id="usersTable" class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Kullanıcı Adı</th>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Email</th>
+                    <th>Kayıt Tarihi</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.Username</td>
+                        <td>@user.FirstName</td>
+                        <td>@user.LastName</td>
+                        <td>@user.Email</td>
+                        <td>@user.CreatedDate.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning" onclick="editUser(@user.Id, '@user.Username', '@user.FirstName', '@user.LastName', '@user.Email')">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="btn btn-sm btn-danger" onclick="deleteUser(@user.Id, '@user.Username')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Kullanıcı Ekleme Modal -->
+<div class="modal fade" id="addUserModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="AddUser" method="post">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title"><i class="fas fa-plus"></i> Yeni Kullanıcı Ekle</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Ad</label>
+                            <input name="FirstName" type="text" class="form-control" required />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Soyad</label>
+                            <input name="LastName" type="text" class="form-control" required />
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Kullanıcı Adı</label>
+                        <input name="Username" type="text" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input name="Email" type="email" class="form-control" required />
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Şifre</label>
+                            <input name="Password" type="password" class="form-control" required minlength="6" />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Şifre Tekrar</label>
+                            <input name="ConfirmPassword" type="password" class="form-control" required minlength="6" />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                    <button type="submit" class="btn btn-success">
+                        <i class="fas fa-plus"></i> Ekle
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Kullanıcı Düzenleme Modal -->
+<div class="modal fade" id="editUserModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="editUserForm" asp-action="UpdateUser" method="post">
+                <div class="modal-header bg-warning text-dark">
+                    <h5 class="modal-title"><i class="fas fa-edit"></i> Kullanıcı Düzenle</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="editUserId" name="Id" />
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Ad</label>
+                            <input id="editFirstName" name="FirstName" type="text" class="form-control" required />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Soyad</label>
+                            <input id="editLastName" name="LastName" type="text" class="form-control" required />
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Kullanıcı Adı</label>
+                        <input id="editUsername" name="Username" type="text" class="form-control" readonly />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input id="editEmail" name="Email" type="email" class="form-control" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                    <button type="submit" class="btn btn-warning">
+                        <i class="fas fa-save"></i> Güncelle
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Silme Onay Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title"><i class="fas fa-trash"></i> Kullanıcı Sil</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bu kullanıcıyı silmek istediğinizden emin misiniz?</p>
+                <p><strong id="deleteUserName"></strong></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                <form id="deleteForm" asp-action="DeleteUser" method="post" style="display: inline;">
+                    <input type="hidden" id="deleteUserId" name="id" />
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fas fa-trash"></i> Sil
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#usersTable').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.11.5/i18n/tr.json"
+                },
+                "pageLength": 10,
+                "ordering": true,
+                "searching": true,
+                "paging": true,
+                "info": true
+            });
+        });
+
+        function editUser(id, username, firstName, lastName, email) {
+            $('#editUserId').val(id);
+            $('#editUsername').val(username);
+            $('#editFirstName').val(firstName);
+            $('#editLastName').val(lastName);
+            $('#editEmail').val(email);
+            $('#editUserModal').modal('show');
+        }
+
+        function deleteUser(id, username) {
+            $('#deleteUserId').val(id);
+            $('#deleteUserName').text(username);
+            $('#deleteModal').modal('show');
+        }
+    </script>
+}

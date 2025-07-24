@@ -1,0 +1,92 @@
+﻿@model staj_proje.Models.User
+@{
+    ViewData["Title"] = "Profil";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4><i class="fas fa-user"></i> Profil Bilgileri</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="UpdateProfile" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="Username" />
+                    <input type="hidden" asp-for="PasswordHash" />
+                    <input type="hidden" asp-for="CreatedDate" />
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Kullanıcı Adı</label>
+                            <input type="text" class="form-control" value="@Model.Username" readonly />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Kayıt Tarihi</label>
+                            <input type="text" class="form-control" value="@Model.CreatedDate.ToString("dd.MM.yyyy HH:mm")" readonly />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label asp-for="FirstName" class="form-label">Ad</label>
+                            <input asp-for="FirstName" class="form-control" required />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="LastName" class="form-label">Soyad</label>
+                            <input asp-for="LastName" class="form-control" required />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label">Email</label>
+                        <input asp-for="Email" class="form-control" type="email" required />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i> Bilgileri Güncelle
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-warning text-dark">
+                <h5><i class="fas fa-key"></i> Şifre Değiştir</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="ChangePassword" method="post">
+                    <div class="mb-3">
+                        <label class="form-label">Mevcut Şifre</label>
+                        <input name="CurrentPassword" type="password" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Yeni Şifre</label>
+                        <input name="NewPassword" type="password" class="form-control" required minlength="6" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Yeni Şifre Tekrar</label>
+                        <input name="ConfirmNewPassword" type="password" class="form-control" required minlength="6" />
+                    </div>
+
+                    <button type="submit" class="btn btn-warning">
+                        <i class="fas fa-key"></i> Şifre Değiştir
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

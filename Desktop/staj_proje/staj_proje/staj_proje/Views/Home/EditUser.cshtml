@@ -1,0 +1,100 @@
+﻿@model staj_proje.Models.User
+@{
+    ViewData["Title"] = "Kullanıcıyı Düzenle";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-warning text-dark">
+                <h4><i class="fas fa-edit"></i> Kullanıcıyı Düzenle</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="UpdateUser" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="PasswordHash" />
+                    <input type="hidden" asp-for="CreatedDate" />
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Kullanıcı Adı</label>
+                            <input asp-for="Username" class="form-control" readonly />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Kayıt Tarihi</label>
+                            <input type="text" class="form-control" value="@Model.CreatedDate.ToString("dd.MM.yyyy HH:mm")" readonly />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label asp-for="FirstName" class="form-label">Ad</label>
+                            <input asp-for="FirstName" class="form-control" required />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="LastName" class="form-label">Soyad</label>
+                            <input asp-for="LastName" class="form-control" required />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label">Email</label>
+                        <input asp-for="Email" class="form-control" type="email" required />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle"></i>
+                            <strong>Not:</strong> Şifre değiştirmek için profil sayfasını kullanın.
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-warning">
+                            <i class="fas fa-save"></i> Güncelle
+                        </button>
+                        <a asp-action="AllRecords" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left"></i> Geri
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5><i class="fas fa-key"></i> Şifre Değiştir</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="ChangeUserPassword" method="post">
+                    <input type="hidden" name="UserId" value="@Model.Id" />
+
+                    <div class="mb-3">
+                        <label class="form-label">Yeni Şifre</label>
+                        <input name="NewPassword" type="password" class="form-control" required minlength="6" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Yeni Şifre Tekrar</label>
+                        <input name="ConfirmNewPassword" type="password" class="form-control" required minlength="6" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-key"></i> Şifre Değiştir
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

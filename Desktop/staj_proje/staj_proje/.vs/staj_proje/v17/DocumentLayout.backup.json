@@ -1,0 +1,513 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\home\\allrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\home\\allrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\home\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\home\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\home\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\home\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\models\\stajprojecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\models\\stajprojecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\models\\viewsmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\models\\viewsmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\migrations\\20250721124638_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\migrations\\20250721124638_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\migrations\\20250721124638_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\migrations\\20250721124638_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|c:\\users\\user\\desktop\\staj_proje\\staj_proje\\staj_proje\\migrations\\20250722111906_addcreateddatetousers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{510B147E-56CC-4E46-A94A-40705F07D2EB}|staj_proje\\staj_proje.csproj|solutionrelative:staj_proje\\migrations\\20250722111906_addcreateddatetousers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T07:45:08.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\User.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\User.cs",
+              "RelativeToolTip": "staj_proje\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:43:00.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T07:27:39.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T07:27:20.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Home\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\EditUser.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Home\\EditUser.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:26:54.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\AllUsers.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Home\\AllUsers.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\AllUsers.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Home\\AllUsers.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T07:02:11.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllRecords.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\AllRecords.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Home\\AllRecords.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\AllRecords.cshtml*",
+              "RelativeToolTip": "staj_proje\\Views\\Home\\AllRecords.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:21:48.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StajProjeContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\StajProjeContext.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Models\\StajProjeContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\StajProjeContext.cs",
+              "RelativeToolTip": "staj_proje\\Models\\StajProjeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T07:16:19.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowDkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T11:13:43.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "staj_proje\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:11:37.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\ViewsModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Models\\ViewsModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Models\\ViewsModel\\LoginViewModel.cs",
+              "RelativeToolTip": "staj_proje\\Models\\ViewsModel\\LoginViewModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T06:14:23.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "staj_proje\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:23:36.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "staj_proje\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T06:53:15.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "staj_proje\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:50:21.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "staj_proje\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:12:24.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Home\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Home\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T07:01:06.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T08:16:56.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T13:01:58.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T08:29:36.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T08:29:17.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\Shared\\_AuthLayout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\Shared\\_AuthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T12:13:34.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T12:54:24.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\appsettings.json",
+              "RelativeDocumentMoniker": "staj_proje\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\appsettings.json",
+              "RelativeToolTip": "staj_proje\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-18T06:38:58.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Program.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Program.cs",
+              "RelativeToolTip": "staj_proje\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:02:49.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\User\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "staj_proje\\Views\\User\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Views\\User\\EditUser.cshtml",
+              "RelativeToolTip": "staj_proje\\Views\\User\\EditUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T06:17:52.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250722111906_AddCreatedDateToUsers.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\20250722111906_AddCreatedDateToUsers.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Migrations\\20250722111906_AddCreatedDateToUsers.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\20250722111906_AddCreatedDateToUsers.cs",
+              "RelativeToolTip": "staj_proje\\Migrations\\20250722111906_AddCreatedDateToUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T11:19:06.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250721124638_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\20250721124638_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Migrations\\20250721124638_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\20250721124638_InitialCreate.Designer.cs",
+              "RelativeToolTip": "staj_proje\\Migrations\\20250721124638_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T10:23:14.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "staj_proje\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T10:22:59.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250721124638_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\20250721124638_InitialCreate.cs",
+              "RelativeDocumentMoniker": "staj_proje\\Migrations\\20250721124638_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\staj_proje\\staj_proje\\staj_proje\\Migrations\\20250721124638_InitialCreate.cs",
+              "RelativeToolTip": "staj_proje\\Migrations\\20250721124638_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:46:38.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
