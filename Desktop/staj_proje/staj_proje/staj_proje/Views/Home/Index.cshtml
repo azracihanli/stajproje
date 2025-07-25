@@ -49,10 +49,33 @@
 </div>
 
 <div class="row mt-4">
-    <div class="col-12">
-        <div class="alert alert-info">
-            <i class="fas fa-info-circle"></i>
-            <strong>Bilgi:</strong> Sol üst köşedeki menü butonundan diğer sayfalara erişebilirsiniz.
+    <div class="col-md-6 offset-md-3">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <i class="fas fa-terminal"></i> Python Entegrasyonu
+            </div>
+            <div class="card-body">
+                <form method="post" asp-controller="Home" asp-action="Index">
+                    <div class="mb-3">
+                        <label for="ad" class="form-label">Adınızı girin:</label>
+                        <input type="text" name="ad" id="ad" class="form-control" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+
+                @if (ViewBag.Mesaj != null)
+                {
+                    <div class="alert alert-secondary mt-4">
+                        <strong>Python Çıktısı:</strong>
+                        <pre>@ViewBag.Mesaj</pre>
+                    </div>
+                }
+            </div>
         </div>
     </div>
+</div>
+
+<div class="alert alert-info mt-5">
+    <i class="fas fa-info-circle"></i>
+    <strong>Bilgi:</strong> Sol üst köşedeki menü butonundan diğer sayfalara erişebilirsiniz.
 </div>
